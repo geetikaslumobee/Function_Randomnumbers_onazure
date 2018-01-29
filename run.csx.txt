@@ -1,0 +1,9 @@
+using System;
+
+public static void Run(string myQueueItem, out string myOutputQueueItem, TraceWriter log)
+{
+   myOutputQueueItem=" ";
+   if(Convert.ToInt32(myQueueItem)>80){
+   myOutputQueueItem= myQueueItem+ "(next step)";
+}
+}

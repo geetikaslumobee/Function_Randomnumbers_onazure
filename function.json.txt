@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "tempreading7",
+      "connection": "myresourcegroup1diag309_STORAGE"
+    },
+    {
+      "type": "queue",
+      "name": "myOutputQueueItem",
+      "queueName": "outqueue1",
+      "connection": "myresourcegroup1diag309_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
